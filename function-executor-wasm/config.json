@@ -1,0 +1,12 @@
+{
+  "natsServer": "172.18.0.2",
+  "natsPort": 4222,
+  "testFunctions": [
+    {
+      "natsSubjectTrigger": "nats-test.trigger",
+      "id": "1",
+      "name": "load-test-function.js"
+    }
+  ],
+  "wasmFile": "./c/loop.wasm"
+}

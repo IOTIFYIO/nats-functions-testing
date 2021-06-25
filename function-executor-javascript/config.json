@@ -1,0 +1,12 @@
+{
+  "natsServer": "172.18.0.2",
+  "natsPort": 4222,
+  "testFunctions": [
+    {
+      "FunctionDefinition": "function mean(count) { total = 0 ; for (i = 0; i < count; i++) { total = total + i ; } return_val = total/count ; return return_val ; }",
+      "natsSubjectTrigger": "nats-test.trigger",
+      "id": "1",
+      "name": "load-test-function.js"
+    }
+  ]
+}
